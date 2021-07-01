@@ -1,6 +1,9 @@
 import projectConfig from '/my_docs/pagic.config.js';
 export default {
-    'prev': undefined,
+    'prev': {
+        "text": "Custom sidebar text",
+        "link": "folder/bar.html"
+    },
     'next': undefined,
     config: { "root": "/", ...projectConfig, branch: 'main' },
     'pagePath': "about/README.md",
@@ -71,6 +74,11 @@ export default {
                     "pagePath": "folder/bar.md"
                 }
             ]
+        },
+        {
+            "text": "About",
+            "link": "about/index.html",
+            "pagePath": "about/README.md"
         }
     ]
 };

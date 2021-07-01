@@ -82,7 +82,8 @@ export default {
                             }
                         ],
                         text: 'Folder'
-                    }
+                    },
+                    'about/README.md'
                 ]
             },
             srcDir: '.',
@@ -141,6 +142,11 @@ export default {
                     "pagePath": "folder/bar.md"
                 }
             ]
+        },
+        {
+            "text": "About",
+            "link": "about/index.html",
+            "pagePath": "about/README.md"
         }
     ]
 };

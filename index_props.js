@@ -80,6 +80,11 @@ export default {
                     "pagePath": "folder/bar.md"
                 }
             ]
+        },
+        {
+            "text": "About",
+            "link": "about/index.html",
+            "pagePath": "about/README.md"
         }
     ]
 };

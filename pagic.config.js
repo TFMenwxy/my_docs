@@ -44,7 +44,8 @@ export default {
                         link: 'folder/bar.md'
                     }
                 ]
-            }
+            },
+            'about/README.md'
         ],
     },
     tools: {

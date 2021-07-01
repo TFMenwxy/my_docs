@@ -1,14 +1,14 @@
 import projectConfig from '/my_docs/pagic.config.js';
 export default {
-    'prev': null,
-    'next': null,
+    'prev': undefined,
+    'next': undefined,
     config: { "root": "/", ...projectConfig, branch: 'main' },
-    'pagePath': "test_pages/front_matter.md",
+    'pagePath': "6-30/review.md",
     'layoutPath': "_layout.tsx",
-    'outputPath': "test_pages/front_matter_test.html",
-    'title': "Front matter test",
+    'outputPath': "6-30/review.html",
+    'title': "优秀在线博客的推荐以及静态博客系统的搭建",
     'content': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<p>This is a front matter test page.</p>\n<h2 id="the-front-matter-content">The front matter content<a class="anchor" href="#the-front-matter-content">§</a></h2>\n<pre class="language-yml"><code class="language-yml"><span class="token key atrule">outputPath</span><span class="token punctuation">:</span> test_pages/front_matter_test.html\n<span class="token key atrule">title</span><span class="token punctuation">:</span> Front matter test\n<span class="token key atrule">toc</span><span class="token punctuation">:</span> <span class="token null important">null</span>\n<span class="token key atrule">prev</span><span class="token punctuation">:</span> <span class="token null important">null</span>\n<span class="token key atrule">next</span><span class="token punctuation">:</span> <span class="token null important">null</span>\n</code></pre>'
+            __html: '<h1>优秀在线博客的推荐以及静态博客系统的搭建</h1>'
         } }),
     'head': React.createElement(React.Fragment, null,
         React.createElement("link", { crossOrigin: "anonymous", href: "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css", integrity: "sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X", rel: "stylesheet" })),
@@ -16,18 +16,18 @@ export default {
         React.createElement("script", { src: "https://cdn.pagic.org/react@16.13.1/umd/react.production.min.js" }),
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@16.13.1/umd/react-dom.production.min.js" }),
         React.createElement("script", { src: "/my_docs/index.js", type: "module" })),
-    'contentTitle': undefined,
+    'contentTitle': React.createElement("h1", { key: "0" }, "\u4F18\u79C0\u5728\u7EBF\u535A\u5BA2\u7684\u63A8\u8350\u4EE5\u53CA\u9759\u6001\u535A\u5BA2\u7CFB\u7EDF\u7684\u642D\u5EFA"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<p>This is a front matter test page.</p>\n<h2 id="the-front-matter-content">The front matter content<a class="anchor" href="#the-front-matter-content">§</a></h2>\n<pre class="language-yml"><code class="language-yml"><span class="token key atrule">outputPath</span><span class="token punctuation">:</span> test_pages/front_matter_test.html\n<span class="token key atrule">title</span><span class="token punctuation">:</span> Front matter test\n<span class="token key atrule">toc</span><span class="token punctuation">:</span> <span class="token null important">null</span>\n<span class="token key atrule">prev</span><span class="token punctuation">:</span> <span class="token null important">null</span>\n<span class="token key atrule">next</span><span class="token punctuation">:</span> <span class="token null important">null</span>\n</code></pre>'
+            __html: ''
         } }),
     'toc': null,
-    'author': "TFMenwxy",
+    'author': "王旭阳",
     'contributors': [
-        "TFMenwxy"
+        "王旭阳"
     ],
-    'date': "2021-06-30T02:10:48.000Z",
+    'date': "2021-07-01T02:03:25.000Z",
     'updated': null,
-    'excerpt': "This is a front matter test page. The front matter content outputPath: test_pages/front_matter_test.html title: Front matter test toc: null prev: null next: null ",
+    'excerpt': "",
     'cover': undefined,
     'sidebar': [
         {
